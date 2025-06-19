@@ -5,6 +5,7 @@ using namespace std;
 int main() 
 {
     string str;
+    cout<<"Enter the string";
     cin>>str;
     for(int i=0; i<str.length(); i++)
     {
@@ -15,4 +16,7 @@ int main()
     }
     cout<<str;
     return 0;
+
+    // cout<<"Hello world";
+    // return 0;
 }
